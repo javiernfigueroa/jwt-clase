@@ -23,7 +23,7 @@ function Register() {
 
     return (
         <div>
-            <h2>Registro</h2>
+            <h2>Register</h2>
             <input placeholder="Email" onChange={e => setEmail(e.target.value)} />
             <input placeholder="Password" type="password" onChange={e => setPassword(e.target.value)} />
             <button onClick={handleRegister}>Registrar</button>
